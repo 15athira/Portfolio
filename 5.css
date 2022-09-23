@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.box {
+    background-color: #E6D5C2;
+    height: 700;
+    width: 480;
+    text-align: center;
+}
+.contacts {
+    color: #1B4245;
+    margin-top: 50;
+    margin-left: 10;
+    
+}
+.image {
+    height: 150;
+    width:150;
+    margin-left: 10;
+    margin-top: 10;
+    border-radius: 1cm;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 10px, rgb(51, 51, 51) 0px 0px 5px 3px;
+}
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ic1 {
+    height: 25;
+    margin-top: 56;  
+}
+.number {
+    margin-top: 58;
+    margin-left: 20;
+    font-size: larger;
+} 
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ic2 {
+    height: 25;
+    margin-left: 140;
+}
+.mail {
+    margin-top: 2;
+    margin-left: 15;
+    font-size: 18;
+    color: #000;
+}
+.mail:hover {
+    color: #1B4245;
+}
+.loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ic3 {
+    height: 25;
+    margin-right: 17;
+}
+.location {
+    margin-top: 2;
+    margin-left: 10;
+    font-size: 18;
+    color: #000;
+}
+.location:hover {
+    color: #1B4245;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.ap {
+    height: 25;
+    margin-top: 20;
+}
+.sv {
+    margin-top: 50;
+    height: 25;
+}
+.sv:hover {
+    cursor: pointer;
+    background-color: #1B4245;
+}
